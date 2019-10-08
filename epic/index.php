@@ -5,8 +5,10 @@
 	<title>Data Design Project</title>
 	<link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
-<body>
-	<h1>Data Design: Reddit</h1>
-	<a href="./phase-1.php">Persona, User Story, Use Case/Interaction Flow</a>
+<body class="center">
+	<div>
+		<h1>Data Design: Reddit</h1>
+		<a href="./phase-1.php">Persona, User Story, Use Case/Interaction Flow</a>
+	</div>
 </body>
 </html>
