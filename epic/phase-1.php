@@ -6,16 +6,16 @@
 	<link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
-	<div>
+	<div class="wrapper">
 		<h2>Persona:</h2>
 		<p>BobMcHateseverything, a 32 year old male living in his mother’s basement, with above average computing skills. He’s extremely opinionated about everything, claims to love technology but only uses Windows and despises Apple products. He uses Reddit to flex his opinions, argue with everyone, and correct their typos.</p>
 		<h2>User Story:</h2>
 		<p>“As a reddit user, I want to downvote every post that disagrees with me.”</p>
 		<h2>Use Case/Interaction</h2>
 		<p>u/BobMcHatesEverything has been arguing in the comment section of a popular computer related subreddit, however everyone is vehemently disagreeing with his opinions.u/BobMcHatesEverything feels the need to downvote every single post that doesn’t share his perspective to show the other users just how wrong they are.
-
+			<br><br>
 			<em>Precondition:</em> u/BobMcHatesEverything received a reply he doesn’t like.
-
+			<br>
 			<em>Postcondition:</em> The other users feel bad about being incorrect.
 		</p>
 		<ul>
@@ -27,6 +27,9 @@
 			<li>Clicking the reply button again, his comment reply is displayed below the other user’s comment.</li>
 			<li>The opposing user has been dealt with accordingly.</li>
 		</ul>
+		<div class="center">
+			<img src="./bob.gif" id="bobimage" alt="This is bob">
+		</div>
 	</div>
 </body>
 
