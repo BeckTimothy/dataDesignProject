@@ -7,12 +7,12 @@
 </head>
 <body class="center">
 <div>
-	<h2>Use Case/Interaction:</h2>
+	<h2>Use Case/Interaction: Downvoting</h2>
 	<p>u/BobMcHatesEverything has been arguing in the comment section of a popular computer related subreddit, however everyone is vehemently disagreeing with his opinions.u/BobMcHatesEverything feels the need to downvote every single post that doesn’t share his perspective to show the other users just how wrong they are.
 		<br><br>
 		<em>Precondition:</em> u/BobMcHatesEverything received a reply he doesn’t like.
 		<br>
-		<em>Postcondition:</em> The other users feel bad about being incorrect.
+		<em>Postcondition:</em> The other users' posts have been downvoted for being wrong.
 	</p>
 	<div class="center">
 		<ul>

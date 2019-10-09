@@ -2,12 +2,9 @@ p {
 	text-align: center;
 	color: white;
 }
-a {
+.link {
 	text-align: center;
 	color: lightgrey;
-}
-a:visited {
-	color: lightslategrey;
 }
 h2 {
 	text-align: center;
@@ -26,9 +23,18 @@ li {
 	display: flex;
 	justify-content: space-around;
 }
+.centered {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
 #bobimage {
 
 }
 body {
 	background-color: black;
+}
+a {
+	color: white;
 }
