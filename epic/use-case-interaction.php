@@ -25,6 +25,9 @@
 			<li>The opposing user has been dealt with accordingly.</li>
 		</ul>
 	</div>
+	<p>
+		<a href="./index.php">Back To Index</a>
+	</p>
 </div>
 </body>
 </html>

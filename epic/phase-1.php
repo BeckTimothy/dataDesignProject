@@ -15,6 +15,9 @@
 			<img src="./bob.gif" id="bobimage" alt="This is bob">
 		</div>
 	</div>
+	<p>
+		<a href="./index.php">Back To Index</a>
+	</p>
 </body>
 
 <?php
