@@ -11,56 +11,68 @@
 		<h1>Conceptual Model:</h1>
 		<h2>Entities and Attributes</h2>
 		<p>Users:</p>
-		<ul>
-			<li>userId</li>
-			<li>userEmail</li>
-		</ul>
+		<div class="center">
+			<ul>
+				<li>userId</li>
+				<li>userEmail</li>
+			</ul>
+		</div>
 		<p>Posts:</p>
-		<ul>
-			<li>postId</li>
-			<li>postUserId</li>
-			<li>postDate</li>
-			<li>postTitle</li>
-			<li>postContent</li>
-		</ul>
+		<div class="center">
+			<ul>
+				<li>postId</li>
+				<li>postUserId</li>
+				<li>postDate</li>
+				<li>postTitle</li>
+				<li>postContent</li>
+			</ul>
+		</div>
 		<p>Comments:</p>
-		<ul>
-			<li>commentId</li>
-			<li>commentCommentId</li>
-			<li>commentUserId</li>
-			<li>commentPostId</li>
-			<li>commentDate</li>
-			<li>commentContent</li>
-		</ul>
+		<div class="center">
+			<ul>
+				<li>commentId</li>
+				<li>commentCommentId</li>
+				<li>commentUserId</li>
+				<li>commentPostId</li>
+				<li>commentDate</li>
+				<li>commentContent</li>
+			</ul>
+		</div>
 		<p>Upvotes:</p>
-		<ul>
-			<li>upvotePostId</li>
-			<li>upvoteUserId</li>
-			<li>upvoteCommentId</li>
-		</ul>
+		<div class="center">
+			<ul>
+				<li>upvotePostId</li>
+				<li>upvoteUserId</li>
+				<li>upvoteCommentId</li>
+			</ul>
+		</div>
 		<p>Downvotes:</p>
-		<ul>
-			<li>downvotePostId</li>
-			<li>downvoteUserId</li>
-			<li>downvoteCommentId</li>
-		</ul>
+		<div class="center">
+			<ul>
+				<li>downvotePostId</li>
+				<li>downvoteUserId</li>
+				<li>downvoteCommentId</li>
+			</ul>
+		</div>
 		<h2>Relations</h2>
-		<ul>
-			<li>One <strong>user</strong> can create many <strong>posts</strong> (1 to n)</li>
-			<li>One <strong>user</strong> can create many <strong>comments</strong> (1 to n)</li>
-			<li>One <strong>user</strong> can create many <strong>upvotes</strong> (1 to n)</li>
-			<li>One <strong>user</strong> can create many <strong>downvotes</strong> (1 to n)</li>
-			<li>One <strong>post</strong> can have many <strong>comments</strong> (1 to n)</li>
-			<li>One <strong>post</strong> can have many <strong>upvotes</strong> (1 to n)</li>
-			<li>One <strong>post</strong> can have many <strong>downvotes</strong> (1 to n)</li>
-			<li>One <strong>comment</strong> can have many <strong>upvotes</strong> (1 to n)</li>
-			<li>One <strong>comment</strong> can have many <strong>downvotes</strong> (1 to n)</li>
-			<li>One <strong>comment</strong> can have many <strong>comments</strong> (1 to n)</li>
-			<li>Many <strong>posts</strong> can be upvoted by many <strong>users</strong> (m to n)</li>
-			<li>Many <strong>comments</strong> can be upvoted by many <strong>users</strong> (m to n)</li>
-			<li>Many <strong>posts</strong> can be downvoted by many <strong>users</strong> (m to n)</li>
-			<li>Many <strong>comments</strong> can be downvoted by many <strong>users</strong> (m to n)</li>
-		</ul>
+		<div class="center">
+			<ul>
+				<li>One <strong>user</strong> can create many <strong>posts</strong> (1 to n)</li>
+				<li>One <strong>user</strong> can create many <strong>comments</strong> (1 to n)</li>
+				<li>One <strong>user</strong> can create many <strong>upvotes</strong> (1 to n)</li>
+				<li>One <strong>user</strong> can create many <strong>downvotes</strong> (1 to n)</li>
+				<li>One <strong>post</strong> can have many <strong>comments</strong> (1 to n)</li>
+				<li>One <strong>post</strong> can have many <strong>upvotes</strong> (1 to n)</li>
+				<li>One <strong>post</strong> can have many <strong>downvotes</strong> (1 to n)</li>
+				<li>One <strong>comment</strong> can have many <strong>upvotes</strong> (1 to n)</li>
+				<li>One <strong>comment</strong> can have many <strong>downvotes</strong> (1 to n)</li>
+				<li>One <strong>comment</strong> can have many <strong>comments</strong> (1 to n)</li>
+				<li>Many <strong>posts</strong> can be upvoted by many <strong>users</strong> (m to n)</li>
+				<li>Many <strong>comments</strong> can be upvoted by many <strong>users</strong> (m to n)</li>
+				<li>Many <strong>posts</strong> can be downvoted by many <strong>users</strong> (m to n)</li>
+				<li>Many <strong>comments</strong> can be downvoted by many <strong>users</strong> (m to n)</li>
+			</ul>
+		</div>
 		<h2>Entity Relationship Diagram</h2>
 		<div class="center">
 			<img src="./design-diagram.png" alt="design diagram image">
@@ -68,7 +80,7 @@
 	</div>
 </div>
 <p>
-	<a href="./index.php">Back To Index</a>
+	<a href="./index.php" class="link">Back To Index</a>
 </p>
 </body>
 </html>

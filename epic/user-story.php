@@ -13,7 +13,7 @@
 			</div>
 		</div>
 		<p>
-			<a href="./index.php">Back To Index</a>
+			<a href="./index.php" class="link">Back To Index</a>
 		</p>
 	</body>
 </html>
