@@ -9,6 +9,8 @@
 	<div>
 		<h1>Data Design: Reddit</h1>
 		<a href="./phase-1.php">Persona, User Story, Use Case/Interaction Flow</a>
+		<a href="./user-story.php">User Story</a>
+		<a href="./use-case-interaction.php">Use Case/Interaction Flow</a>
 	</div>
 </body>
 </html>
