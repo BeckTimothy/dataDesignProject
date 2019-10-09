@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>User Story</title>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+<div class="center">
+	<div>
+		<h1>Conceptual Model:</h1>
+		<h2>Entities and Attributes</h2>
+		<p>Users:</p>
+		<ul>
+			<li>userId</li>
+			<li>userEmail</li>
+		</ul>
+		<p>Posts:</p>
+		<ul>
+			<li>postId</li>
+			<li>postUserId</li>
+			<li>postDate</li>
+			<li>postTitle</li>
+			<li>postContent</li>
+		</ul>
+		<p>Comments:</p>
+		<ul>
+			<li>commentId</li>
+			<li>commentCommentId</li>
+			<li>commentUserId</li>
+			<li>commentPostId</li>
+			<li>commentDate</li>
+			<li>commentContent</li>
+		</ul>
+		<p>Upvotes:</p>
+		<ul>
+			<li>upvotePostId</li>
+			<li>upvoteUserId</li>
+			<li>upvoteCommentId</li>
+		</ul>
+		<p>Downvotes:</p>
+		<ul>
+			<li>downvotePostId</li>
+			<li>downvoteUserId</li>
+			<li>downvoteCommentId</li>
+		</ul>
+		<h2>Relations</h2>
+		<ul>
+			<li>One <strong>user</strong> can create many <strong>posts</strong> (1 to n)</li>
+			<li>One <strong>user</strong> can create many <strong>comments</strong> (1 to n)</li>
+			<li>One <strong>user</strong> can create many <strong>upvotes</strong> (1 to n)</li>
+			<li>One <strong>user</strong> can create many <strong>downvotes</strong> (1 to n)</li>
+			<li>One <strong>post</strong> can have many <strong>comments</strong> (1 to n)</li>
+			<li>One <strong>post</strong> can have many <strong>upvotes</strong> (1 to n)</li>
+			<li>One <strong>post</strong> can have many <strong>downvotes</strong> (1 to n)</li>
+			<li>One <strong>comment</strong> can have many <strong>upvotes</strong> (1 to n)</li>
+			<li>One <strong>comment</strong> can have many <strong>downvotes</strong> (1 to n)</li>
+			<li>One <strong>comment</strong> can have many <strong>comments</strong> (1 to n)</li>
+			<li>Many <strong>posts</strong> can be upvoted by many <strong>users</strong> (m to n)</li>
+			<li>Many <strong>comments</strong> can be upvoted by many <strong>users</strong> (m to n)</li>
+			<li>Many <strong>posts</strong> can be downvoted by many <strong>users</strong> (m to n)</li>
+			<li>Many <strong>comments</strong> can be downvoted by many <strong>users</strong> (m to n)</li>
+		</ul>
+		<h2>Entity Relationship Diagram</h2>
+		<div class="center">
+			<img src="./design-diagram.png" alt="design diagram image">
+		</div>
+	</div>
+</div>
+<p>
+	<a href="./index.php">Back To Index</a>
+</p>
+</body>
+</html>
+<?php
+?>

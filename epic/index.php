@@ -21,6 +21,11 @@
 		</div>
 		<br>
 		<h2>Phase 2:</h2>
+		<div class="centered">
+			<p>
+				<a href="./conceptual-model.html" class="link">Conceptual Model</a>
+			</p>
+		</div>
 	</div>
 </body>
 </html>
