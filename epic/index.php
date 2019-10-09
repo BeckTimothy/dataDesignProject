@@ -8,9 +8,15 @@
 <body class="center">
 	<div>
 		<h1>Data Design: Reddit</h1>
+		<br>
+		<h2>Phase 1:</h2>
 		<a href="./phase-1.php">Persona</a>
+		<br>
 		<a href="./user-story.php">User Story</a>
+		<br>
 		<a href="./use-case-interaction.php">Use Case/Interaction Flow</a>
+		<br>
+		<h2>Phase 2:</h2>
 	</div>
 </body>
 </html>
