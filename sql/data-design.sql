@@ -12,9 +12,9 @@ create table user(
 create table post(
    postId binary(16) not null,
    postUserId binary(16) not null,
+	postContent varchar(40000) not null,
    postDate datetime(6) not null,
    postTitle varchar(255) not null,
-   postContent varchar(40000) not null,
    index(postUserId),
    foreign key(postUserId) references user(userId),
 	primary key(postId)
