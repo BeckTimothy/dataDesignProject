@@ -26,6 +26,12 @@
 				<a href="./conceptual-model.html" class="link">Conceptual Model</a>
 			</p>
 		</div>
+		<h2>Phase 3:</h2>
+		<div class="centered">
+			<p>
+				<a href="../sql/data-design.sql" class="link">DDL Script</a>
+			</p>
+		</div>
 	</div>
 </body>
 </html>
