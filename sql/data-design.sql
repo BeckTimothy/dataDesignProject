@@ -5,7 +5,7 @@ drop table if exists user;
 create table user(
    userId binary(16) not null,
    userEmail varchar(128) not null,
-   index(userEmail),
+   unique(userEmail),
    primary key(userID)
 );
 
@@ -23,6 +23,9 @@ create table post(
 create table downvote(
    downvotePostId binary(16) not null,
    downvoteUserId binary(16) not null,
-   foreign key(downvotePostId) references post(postId),
-   foreign key (downvoteUserId) references user(userId)
+   index (downvotePostId),
+   index (downvoteUserId),
+   foreign key (downvotePostId) references post(postId),
+   foreign key (downvoteUserId) references user(userId),
+	primary key (downvotePostId, downvoteUserId)
 );
